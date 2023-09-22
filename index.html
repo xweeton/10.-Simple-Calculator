@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Simple Calculator</title>
 </head>
 
@@ -11,13 +12,17 @@
   <h1>Simple Calculator</h1>
   <img src="mascot.png" alt="Cute robot with arms">
   <br>
-  <button onclick="add()">Add</button>
-  <button onclick="subtract()">Subtract</button>
-  <button onclick="multiply()">Multiply</button>
-  <button onclick="divide()">Divide </button>
-  <button onclick="simpleInterest()">Simple Interest</button>
-  <button onclick="compoundInterest()">Compound Interest</button>
-
+  <div id="function1">
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide </button>
+  </div>
+  <br>
+  <div id="function2">
+    <button onclick="simpleInterest()">Simple Interest</button>
+    <button onclick="compoundInterest()">Compound Interest</button>
+  </div>
   <script src="script.js"></script>
 </body>
 
